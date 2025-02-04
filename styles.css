@@ -79,7 +79,6 @@ body, h1, h2, p {
     font-size: 1.4rem;
     margin: 10px 0;
     font-family: 'Courier New', monospace;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero .btn {
@@ -102,8 +101,7 @@ body, h1, h2, p {
 .bookshelf {
     padding: 50px 20px;
     text-align: center;
-    background-color: #f1f8e9; /* Lighter vintage parchment color */
-    /* margin-top: 120px; */
+    background-color: #f1f8e9; 
 }
 
 /* Stacked Shelf Design */
@@ -117,9 +115,7 @@ body, h1, h2, p {
     padding: 0 15px;
     padding-top: 50px;
     position: relative;
-    /* border-radius: 8px; */
-    box-shadow: inset 0 -10px 14px rgba(0, 0, 0, 0.6); /* Deeper shadow for thickness */
-    /* border-bottom: 12px solid #3e2723; Dark wood edge for realism */
+    box-shadow: inset 0 -10px 14px rgba(0, 0, 0, 0.6); 
     border-bottom: 10px solid #2f0000;
 }
 
