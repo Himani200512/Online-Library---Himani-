@@ -225,13 +225,11 @@ body, h1, h2, p {
 }
 
 .addreview {
-    background: #f5f5f5;
+    background: #39070759;
     padding: 25px;
     margin: 25px auto;
-    border-radius: 12px;
     font-size: 1.2rem;
     font-style: italic;
-    max-width: 600px;
     font-family: 'Courier New', monospace;
 }
 
