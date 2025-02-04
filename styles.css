@@ -187,15 +187,9 @@ body, h1, h2, p {
 .book:nth-child(3n) { filter:brightness(120%) grayscale(20%) sepia(50%); }
 .book:nth-child(4n) { filter:brightness(120%) hue-rotate(220deg) brightness(80%); }
 
-/* Slightly varied shadows for realism */
-/*
-.book:nth-child(5n) { box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.7); }
-.book:nth-child(6n) { box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5); } */
-
 /* Hover Effect */
 .book:hover {
     translate: 0 var(--depth);
-    /* transform: rotate3d(1, 0, 0, 45deg); */
     box-shadow: 0 calc(-2 * var(--depth)) 0 1px #260000;
     transform: rotateX(30deg);
 }
