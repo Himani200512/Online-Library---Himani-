@@ -8,12 +8,12 @@
 body, h1, h2, p {
     margin: 0;
     padding: 0;
-    font-family: 'Georgia', serif; /* Classic serif for vintage feel */
+    font-family: 'Georgia', serif; 
 }
 
 /* Navbar */
 .navbar {
-    background-color: #4e342e; /* Dark brown for a vintage look */
+    background-color: #4e342e;
     color: white;
     padding: 15px;
     display: flex;
@@ -44,12 +44,12 @@ body, h1, h2, p {
 }
 
 .navbar a:hover {
-    color: #ffcc80; /* Lighter vintage color */
+    color: #ffcc80; 
 }
 
 /* Hero Section */
 .hero {
-    background: url('library.webp') center/cover no-repeat;
+    background: url("C:\Users\Toral\Desktop\book-library\library.webp") center/cover no-repeat;
     text-align: center;
     padding: 120px;
     color: white;
