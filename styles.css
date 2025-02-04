@@ -1,246 +1,251 @@
-
 /* Reset default margins and padding */
 * {
-margin: 0;
-padding:0;
-box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
 }
 
 body, h1, h2, p {
-margin: 0;
-padding: 0;
-font-family: 'Georgia', serif; /* Classic serif for vintage feel */
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif; /* Classic serif for vintage feel */
 }
 
 /* Navbar */
 .navbar {
-background-color: #4e342e; /* Dark brown for a vintage look */
-color: white;
-padding: 15px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-position: fixed;
-width: 100%;
-top: 0;
-z-index: 100;
-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    background-color: #4e342e; /* Dark brown for a vintage look */
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .navbar ul {
-list-style: none;
-display: flex;
+    list-style: none;
+    display: flex;
 }
 
 .navbar li {
-margin: 0 15px;
+    margin: 0 15px;
 }
 
 .navbar a {
-text-decoration: none;
-color: white;
-font-weight: bold;
-font-size: 1.1rem;
-transition: color 0.3s;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s;
 }
 
 .navbar a:hover {
-color: #ffcc80; /* Lighter vintage color */
+    color: #ffcc80; /* Lighter vintage color */
 }
 
 /* Hero Section */
 .hero {
-background: url('library.webp') center/cover no-repeat;
-text-align: center;
-padding: 120px;
-color: white;
-position: relative;
-background-attachment: fixed;
-z-index: 1;
+    background: url('library.webp') center/cover no-repeat;
+    text-align: center;
+    padding: 120px;
+    color: white;
+    position: relative;
+    background-attachment: fixed;
+    z-index: 1;
 }
 
 .hero::after {
-content: '';
-position: absolute;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-background: rgba(0, 0, 0, 0.4); /* Dark overlay for readability */
-z-index: -1;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4); /* Dark overlay for readability */
+    z-index: -1;
 }
 
 .hero h2 {
-font-size: 3.5rem;
-font-weight: 700;
-font-family: 'Times New Roman', serif;
-text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-family: 'Times New Roman', serif;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
 }
 
 .hero p {
-font-size: 1.4rem;
-margin: 10px 0;
-font-family: 'Courier New', monospace;
-text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    font-size: 1.4rem;
+    margin: 10px 0;
+    font-family: 'Courier New', monospace;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero .btn {
-margin-top: 300px;
-background: #ffcc80;
-padding: 12px 25px;
-text-decoration: none;
-color: white;
-border-radius: 5px;
-font-size: 1.1rem;
-transition: background 0.3s, transform 0.3s;
+    margin-top: 300px;
+    background: #ffcc80;
+    padding: 12px 25px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background 0.3s, transform 0.3s;
 }
 
 .hero .btn:hover {
-background: #f57c00;
-transform: translateY(-5px);
+    background: #f57c00;
+    transform: translateY(-5px);
 }
 
 /* Bookshelf Section */
 .bookshelf {
-padding: 50px 20px;
-text-align: center;
-background-color: #f1f8e9; /* Lighter vintage parchment color */
-/* margin-top: 120px; */
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f1f8e9; /* Lighter vintage parchment color */
+    /* margin-top: 120px; */
 }
 
-/*Shelf Design*/
+/* Stacked Shelf Design */
 .shelf {
-background: url("https://c4.wallpaperflare.com/wallpaper/848/394/415/wood-background-wallpaper-preview.jpg") center/cover no-repeat;
-margin: 0 auto;
-width: clamp(600px, 85%, 900px);
-display: flex;
-justify-content: flex-start;
-align-items: flex-end;
-padding: 0 15px;
-padding-top: 50px;
-position: relative;
-/* border-radius: 8px; */
-box-shadow: inset 0 -10px 14px rgba(0, 0, 0, 0.6); /* Deeper shadow for thickness */
-/* border-bottom: 12px solid #3e2723; Dark wood edge for realism */
-border-bottom: 10px solid #2f0000;
+    background: url("https://c4.wallpaperflare.com/wallpaper/848/394/415/wood-background-wallpaper-preview.jpg") center/cover no-repeat;
+    margin: 0 auto;
+    width: clamp(600px, 85%, 900px);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 0 15px;
+    padding-top: 50px;
+    position: relative;
+    /* border-radius: 8px; */
+    box-shadow: inset 0 -10px 14px rgba(0, 0, 0, 0.6); /* Deeper shadow for thickness */
+    /* border-bottom: 12px solid #3e2723; Dark wood edge for realism */
+    border-bottom: 10px solid #2f0000;
 }
 
 .shelf:nth-child(1) {
-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
 }
 
 .shelf:last-child {
-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
 }
 
 /* Books */
 .book {
-margin: 0 4px;
-display: flex;
-align-items: center;
-justify-content: center;
-font-size: 14px;
-font-weight: bold;
-color: black;
-writing-mode: vertical-rl;
-text-orientation: mixed;
-border-radius: 5px;
-transition: 300ms;
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-border: 1px solid #260000;
-filter: brightness(200%);
-background-image: url('"C:\Users\Toral\Desktop\book-library\book-texture.jpg"');
-border-left: 5px solid #260000;
---depth: 25px;
-z-index: 99;
+    margin: 0 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    border-radius: 5px;
+    transition: 300ms;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #260000;
+    filter: brightness(200%);
+    background-image: url('book-texture.jpg');
+    border-left: 5px solid #260000;
+    --depth: 25px;
+    z-index: 99;
 }
 
 
 .hl {
-padding-top: 70px ;
-padding-bottom: 70px ;
+    padding-top: 70px ;
+    padding-bottom: 70px ;
 }
 .hm {
-padding-top: 50px ;
-padding-bottom: 50px ;
+    padding-top: 50px ;
+    padding-bottom: 50px ;
 }
 .hs {
-padding-top: 35px ;
-padding-bottom: 35px ;
+    padding-top: 35px ;
+    padding-bottom: 35px ;
 }
 
 .tl {
-padding-left: 20px;
-padding-right: 20px;
---depth: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    --depth: 25px;
 }
 .tm {
-padding-left: 15px;
-padding-right: 15px;
---depth: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    --depth: 35px;
 }
 .ts {
-padding-left: 10px;
-padding-right: 10px;
---depth: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    --depth: 45px;
 }
 
 /* Color Variations */
-.book:nth-child(odd) { filter:brightness(120%) sepia(40%) hue-rotate(10deg); }
+ .book:nth-child(odd) { filter:brightness(120%) sepia(40%) hue-rotate(10deg); }
 .book:nth-child(even) { filter: brightness(120%) contrast(120%); }
 .book:nth-child(3n) { filter:brightness(120%) grayscale(20%) sepia(50%); }
 .book:nth-child(4n) { filter:brightness(120%) hue-rotate(220deg) brightness(80%); }
 
+/* Slightly varied shadows for realism */
+/*
+.book:nth-child(5n) { box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.7); }
+.book:nth-child(6n) { box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5); } */
+
 /* Hover Effect */
 .book:hover {
-translate: 0 var(--depth);
-box-shadow: 0 calc(-2 * var(--depth)) 0 1px #260000;
-transform: rotateX(30deg);
+    translate: 0 var(--depth);
+    /* transform: rotate3d(1, 0, 0, 45deg); */
+    box-shadow: 0 calc(-2 * var(--depth)) 0 1px #260000;
+    transform: rotateX(30deg);
 }
 
 /* Style the book labels */
 .book p {
-font-size: 14px;
-font-family: 'Times New Roman', Times, serif;
-color: rgba(224, 224, 224, 0.85);
-text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(224, 224, 224, 0.85);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 /* Reviews Section */
 #reviews {
-padding: 50px 20px;
-text-align: center;
-background-color: #fafafa;
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fafafa;
 }
 
 .review {
-background: #e0e0e0;
-padding: 25px;
-margin: 25px auto;
-border-radius: 12px;
-box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3);
-font-size: 1.2rem;
-font-style: italic;
-max-width: 600px;
-font-family: 'Courier New', monospace;
+    background: #e0e0e0;
+    padding: 25px;
+    margin: 25px auto;
+    border-radius: 12px;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3);
+    font-size: 1.2rem;
+    font-style: italic;
+    max-width: 600px;
+    font-family: 'Courier New', monospace;
 }
 
 .review p {
-color: #555;
+    color: #555;
 }
 
 /* Footer */
 footer {
-background: #4e342e;
-color: white;
-text-align: center;
-padding: 15px;
-margin-top: 50px;
+    background: #4e342e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
 }
 
 footer p {
-font-size: 1.1rem;
-font-family: 'Times New Roman', serif;
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', serif;
 }
