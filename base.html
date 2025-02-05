@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Bookshelf</title>
+    <link rel="stylesheet" href="styles.css"> 
+    </head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1>Vintage Library</h1>
+        <ul>
+            <li><a href="#bookshelf">Bookshelf</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Welcome to Your Personal Library</h2>
+        <a href="#bookshelf" class="btn">Explore</a>
+        <a class="btn"><label for="categories">Categories</label></a>
+            <select id="categories" name="categories">
+                <option value="Fiction">Fiction</option>
+                <option value="Non-Fiction">Non-Fiction</option>
+                <option value="Science Fiction">Science Fiction</option>
+                <option value="Biographies">Biographies</option>
+                <option value="Autobiographies">Autobiographies</option>
+                <option value="Historical Fiction">Historical Fiction</option>
+                <option value="Horror">Horror</option>
+                <option value="Thriller">Thriller</option>
+            </select>
+        
+        </section>
+
+    <!-- Bookshelf Section -->
+    <section id="reviews">
+        <h2> Your Bookshelf</h2>
+    </section>
+    <section id="bookshelf" class="bookshelf">
+
+        <!-- Shelf 1 -->
+        <div class="shelf">
+            <div class="book hl tl"><p>Inferno</p></div>
+            <div class="book hm tm"><p>Fault in Our Stars</p></div>
+            <div class="book hs ts"><p>Angels and Demons</p></div>
+            <div class="book hl tm"><p>Pride and Prejudice</p></div>
+            <div class="book hm ts"><p>Diary of a Wimpy Kid</p></div>
+            <div class="book hs tl"><p>The Hobbit</p></div>
+            <div class="book hl ts"><p>Game of Thrones</p></div>
+            <div class="book hm tl"><p>A Good Girl's Guide to Murder</p></div>
+            <div class="book hs tm"><p>Silent Patient</p></div>
+        </div>
+        <div class="shelf">
+            <div class="book hm tm"><p>Percy Jackson</p></div>
+            <div class="book hm ts"><p>Anne's Diary</p></div>
+            <div class="book hs ts"><p>Lost SYmbol</p></div>
+            <div class="book hl ts"><p>Da Vinci Code</p></div>
+            <div class="book hm tm"><p>Solo Leveling</p></div>
+            <div class="book hl tm"><p>Naruto Shippuden</p></div>
+            <div class="book hs ts"><p>Deathnote</p></div>
+            <div class="book hl tl"><p>One Piece</p></div>
+            <div class="book hm tl"><p>Boku no Hiro Academia</p></div>
+            <div class="book hs tl"><p>Five Feet Apart</p></div>
+            <div class="book hs tm"><p>Halfgirlfriend</p></div>
+        </div>
+        <div class="shelf">
+            <div class="book hm tm"><p>Circle</p></div>
+            <div class="book hl tl"><p>5 AM Club</p></div>
+            <div class="book hl ts"><p>Atomic Habits</p></div>
+            <div class="book hs ts"><p>400 Days</p></div>
+            <div class="book hl tm"><p>Hunger Games</p></div>
+            <div class="book hm tl"><p>Oliver Twist</p></div>
+            <div class="book hs ts"><p>Shadow and Bone</p></div>
+            <div class="book hs tl"><p>Little Women</p></div>
+            <div class="book hs tm"><p>A Tale of Two Cities</p></div>
+        </div>
+    </section> 
+
+
+    <!-- Reviews Section -->
+
+    <section id="reviews">
+        <h2>📖 Reader Reviews</h2>
+        <div class="review">
+            <p>"A fantastic collection of books with a cozy, vintage feel!"</p>
+        </div>
+        <div class="review">
+            <p>"The interface is beautifully designed—feels like a real bookshelf!"</p>
+        </div>
+        <div class="addreview">
+            <h3>Add Your Review</h3>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="review">Review:</label>
+                <textarea id="review" name="review" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <p>&copy; 2025 
+            <a style="color: aqua;">Himani Shah</a>. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
