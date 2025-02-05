@@ -1,1 +1,1 @@
-Websute for literature enthusiasts and beginners.
+Website for literature enthusiasts and beginners.
